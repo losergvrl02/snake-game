@@ -108,7 +108,7 @@ def gameLoop():
                 if event.key == pygame.K_q:
                     game_over = True
                     game_close = True
-                if event.key == pygame.K_c:
+                if event.key == pygame.K_r:
                     game_close = False
 
     pygame.quit()
