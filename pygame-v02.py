@@ -100,7 +100,7 @@ def gameLoop():
             clock.tick(snake_speed)
 
         dis.fill(blue)
-        message("You Lost! Press Q-Quit or C-Play Again", red)
+        message("You Lost! Press Q-Quit or R-Retry", red)
         pygame.display.update()
 
         for event in pygame.event.get():
